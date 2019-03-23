@@ -1,4 +1,4 @@
-#SSSS Comic Downloader
+# SSSS Comic Downloader
 
 ## Description
 
