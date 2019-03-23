@@ -1,6 +1,10 @@
-# SSSS Comic Downloader
+#SSSS Comic Downloader
 
-### How to use
+## Description
+
+Tool to download the 1000+ Pages of the [Stand Still Stay Silent Web Comic](http://www.sssscomic.com)
+
+## How to use
 
 Clone this repository using
 
