@@ -15,7 +15,7 @@ def download_everyting():
     last_page_link = ssss_soup('a')[-1]
     how_many_pages = int(last_page_link.text)
 
-    for page_number in range(1, how_many_pages+1):
+    for page_number in range(input("Where to start downloading?"), input("Where to stop downloading?")+1):
         page = requests.get(
             'http://www.sssscomic.com/comic.php?page=' + str(page_number))
         soup = BeautifulSoup(page.text, 'html.parser')
